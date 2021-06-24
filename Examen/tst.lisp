@@ -1,0 +1,6 @@
+(load "maze_lib.lisp")
+(add-algorithm 'best-first)
+(defun best-first()
+	(setq *solution* '(4 4 4 2 0 0 0))
+	)
+(start-maze)
